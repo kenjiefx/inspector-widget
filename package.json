@@ -1,0 +1,23 @@
+{
+  "name": "inspector-widget",
+  "version": "1.0.0",
+  "description": "Yotpo Widget Inspector compatible for v2 and v3 widgets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjiefx/inspector-widget.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjiefx/inspector-widget/issues"
+  },
+  "homepage": "https://github.com/kenjiefx/inspector-widget#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
