@@ -1,1 +1,9 @@
 * {margin:0;padding:0;box-sizing:border-box;}
+#main {display: none;}
+ul {list-style-type:none;}
+body, input, textarea {
+	font-family: 'Inter';
+}
+.clickable {
+	cursor: pointer;
+}

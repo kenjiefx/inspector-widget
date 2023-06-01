@@ -1,3 +1,3 @@
 <main>
-    <?php component('HelloScratch'); ?>
+    Hello world!
 </main>
