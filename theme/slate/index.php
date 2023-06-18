@@ -15,7 +15,10 @@
         <?php component('Loader'); ?>
         <main id="main">
             <?php component('Header'); ?>
-            <?php template_content(); ?>
+            <div class="width-24 display-flex">
+                <div class="group.sidebar_width"></div>
+                <?php template_content(); ?>
+            </div>
         </main>
         <?php component('BuildVersion'); ?>
     </body>

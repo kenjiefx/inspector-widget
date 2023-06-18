@@ -11,11 +11,9 @@ fieldset.fieldset__input input:focus {
 }
 
 fieldset.fieldset__input:focus-within {
-    border: 1px solid #00695C;
+    border: 1px solid #7b1fa2;
 }
 
-.fieldset__input label {
-    color: rgb(33 33 33);
+.label {
     font-size: 0.7em;
-    width: max-content;
 }

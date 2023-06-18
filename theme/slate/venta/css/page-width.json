@@ -1,3 +1,4 @@
 [{
-    "group.page_width": "rem-max-width-8 width-24 padding-7@mobile"
+    "group.page_width": "rem-max-width-8 width-24 padding-7@mobile",
+    "group.sidebar_width": "small-width-19"
 }]

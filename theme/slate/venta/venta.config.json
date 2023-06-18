@@ -5,7 +5,12 @@
 		"values": {
             "primary":"#7b1fa2",
 			"elegant-black":"#2f3336",
-			"extra-gray":"#eaeaea"
+			"extra-gray":"#eaeaea",
+			"bored-gray":"#777777",
+			"label-gray":"#9e9e9e",
+			"primary-extra-light":"#fdf9ff",
+			"white":"#f6f6f6",
+			"transparent":"transparent"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -16,7 +21,12 @@
 		"values": {
             "primary":"#7b1fa2",
 			"elegant-black":"#2f3336",
-			"extra-gray":"#eaeaea"
+			"extra-gray":"#eaeaea",
+			"bored-gray":"#777777",
+			"label-gray":"#9e9e9e",
+			"primary-extra-light":"#fdf9ff",
+			"white":"#f6f6f6",
+			"transparent":"transparent"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -27,7 +37,12 @@
 		"values": {
             "primary":"#7b1fa2",
 			"elegant-black":"#2f3336",
-			"extra-gray":"#eaeaea"
+			"extra-gray":"#eaeaea",
+			"bored-gray":"#777777",
+			"label-gray":"#9e9e9e",
+			"primary-extra-light":"#fdf9ff",
+			"white":"#f6f6f6",
+			"transparent":"transparent"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -107,6 +122,20 @@
 		"type": "list",
 		"values": ["solid","none"],
 		"variants": "auto",
+		"separator": "-"
+	},
+	"cursor": {
+		"rule": "cursor:{value}",
+		"type": "list",
+		"values": ["pointer"],
+		"variants": "auto",
+		"separator": "-"
+	},
+	"flex-grow": {
+		"rule": "flex-grow:{value}",
+		"type": "count",
+		"values": ["1","24"],
+		"variants": "24",
 		"separator": "-"
 	}
 }
