@@ -1,0 +1,112 @@
+{
+	"background-color": {
+        "rule": "background-color:{value}",
+		"type": "dictionary",
+		"values": {
+            "primary":"#7b1fa2",
+			"elegant-black":"#2f3336",
+			"extra-gray":"#eaeaea"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"color": {
+        "rule": "color:{value}",
+		"type": "dictionary",
+		"values": {
+            "primary":"#7b1fa2",
+			"elegant-black":"#2f3336",
+			"extra-gray":"#eaeaea"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"border-color": {
+        "rule": "color:{value}",
+		"type": "dictionary",
+		"values": {
+            "primary":"#7b1fa2",
+			"elegant-black":"#2f3336",
+			"extra-gray":"#eaeaea"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+    "border-top": {
+        "rule": "border-top:{value}",
+		"type": "dictionary",
+		"values": {
+            "none":"none"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"text-effect": {
+        "rule": "{value}",
+		"type": "dictionary",
+		"values": {
+            "glitch":"text-shadow: -0.09em 0 0 #F22613,  0.09em 0 0 #00FFFF;",
+			"super-bold":"text-shadow: 1.5px 0 0 currentColor;"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+    "border-radius-extra-small": {
+		"rule": "border-radius:{value}px",
+		"type": "minmax",
+		"values": ["1","24"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"fixed-bottom": {
+        "rule": "bottom:{value}",
+		"type": "dictionary",
+		"values": {
+            "0":"0"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"rem-max-width": {
+		"rule": "max-width:{value}rem",
+		"type": "minmax",
+		"values": ["50","120"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"medium-square": {
+		"rule": "width:{value}px;height:{value}px;",
+		"type": "minmax",
+		"values": ["40","120"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"border-bottom-width": {
+		"rule": "border-bottom-width:{value}px",
+		"type": "count",
+		"values": ["1","24"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"border-bottom-style": {
+		"rule": "border-bottom-style:{value}",
+		"type": "list",
+		"values": ["solid","none"],
+		"variants": "auto",
+		"separator": "-"
+	},
+	"border-right-width": {
+		"rule": "border-right-width:{value}px",
+		"type": "count",
+		"values": ["1","24"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"border-right-style": {
+		"rule": "border-right-style:{value}",
+		"type": "list",
+		"values": ["solid","none"],
+		"variants": "auto",
+		"separator": "-"
+	}
+}
