@@ -10,7 +10,8 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
-			"transparent":"transparent"
+			"transparent":"transparent",
+			"inherit":"inherit"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -26,7 +27,8 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
-			"transparent":"transparent"
+			"transparent":"transparent",
+			"inherit":"inherit"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -42,7 +44,8 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
-			"transparent":"transparent"
+			"transparent":"transparent",
+			"inherit":"inherit"
         },
 		"variants": "auto",
 		"separator": "-"
@@ -70,6 +73,13 @@
 		"rule": "border-radius:{value}px",
 		"type": "minmax",
 		"values": ["1","24"],
+		"variants": "24",
+		"separator": "-"
+	},
+	"border-radius-extra-large": {
+		"rule": "border-radius:{value}px",
+		"type": "minmax",
+		"values": ["100","500"],
 		"variants": "24",
 		"separator": "-"
 	},
@@ -137,5 +147,32 @@
 		"values": ["1","24"],
 		"variants": "24",
 		"separator": "-"
-	}
+	},
+	"icon-effects": {
+        "rule": "border-top:{value}",
+		"type": "dictionary",
+		"values": {
+            "glow-on-hover":"none"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"outline": {
+        "rule": "outline:{value}",
+		"type": "dictionary",
+		"values": {
+            "none":"none"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"box-shadow": {
+        "rule": "box-shadow:{value}",
+		"type": "dictionary",
+		"values": {
+            "card-standard":"-1px 3px 8px 0 rgb(0 0 0 / 28%)"
+        },
+		"variants": "auto",
+		"separator": "-"
+    }
 }

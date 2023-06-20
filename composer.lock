@@ -216,12 +216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kenjiefx/venta-css.git",
-                "reference": "96a8e401c0dbd50dc0b35149aca1911fb6eea051"
+                "reference": "19fb01b20d1c70fe0ca156169f4e191f2ea00a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kenjiefx/venta-css/zipball/96a8e401c0dbd50dc0b35149aca1911fb6eea051",
-                "reference": "96a8e401c0dbd50dc0b35149aca1911fb6eea051",
+                "url": "https://api.github.com/repos/kenjiefx/venta-css/zipball/19fb01b20d1c70fe0ca156169f4e191f2ea00a5e",
+                "reference": "19fb01b20d1c70fe0ca156169f4e191f2ea00a5e",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "issues": "https://github.com/kenjiefx/venta-css/issues",
                 "source": "https://github.com/kenjiefx/venta-css/tree/main"
             },
-            "time": "2023-06-18T05:59:45+00:00"
+            "time": "2023-06-20T17:43:34+00:00"
         },
         {
             "name": "league/container",
@@ -1602,7 +1602,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "kenjiefx/scratch-php": 20,
-        "kenjiefx/venta-css": 20
+        "kenjiefx/venta-css": 20,
+        "kenjiefx/strawberry-scratch": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

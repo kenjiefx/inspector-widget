@@ -6,6 +6,6 @@
     $color = $snippet['color'];
 ?>
 
-<button <?php echo $click.' '.$type ?> class="btn-loadable cursor-pointer text-5 padding-x-11 padding-y-7 border-radius-extra-small-11 border-style-none background-color-<?php echo $background; ?> color-<?php echo $color; ?>">
+<button <?php echo $click.' '.$type ?> class="outline-none:focus btn-loadable cursor-pointer text-5 padding-x-11 padding-y-7 border-radius-extra-small-11 border-style-none background-color-<?php echo $background; ?> color-<?php echo $color; ?>">
     <?php echo $text; ?>
 </button>

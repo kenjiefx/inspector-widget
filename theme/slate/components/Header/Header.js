@@ -1,3 +1,3 @@
-app.component('Header',($scope,$patch)=>{
-    $scope.say_hello = 'Hello World!';
+app.component('Header',($scope,$patch,BuildVersion)=>{
+    $scope.showBuildCard = BuildVersion.showBuildCard;
 });
