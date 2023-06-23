@@ -11,7 +11,7 @@ fieldset.fieldset__input input:focus {
 }
 
 fieldset.fieldset__input:focus-within {
-    border: 1px solid #7b1fa2;
+    border: 1px solid #424043;
 }
 
 .label {

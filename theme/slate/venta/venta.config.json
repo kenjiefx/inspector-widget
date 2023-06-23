@@ -3,7 +3,7 @@
         "rule": "background-color:{value}",
 		"type": "dictionary",
 		"values": {
-            "primary":"#7b1fa2",
+            "primary":"#424043",
 			"elegant-black":"#2f3336",
 			"extra-gray":"#eaeaea",
 			"bored-gray":"#777777",
@@ -20,7 +20,7 @@
         "rule": "color:{value}",
 		"type": "dictionary",
 		"values": {
-            "primary":"#7b1fa2",
+            "primary":"#424043",
 			"elegant-black":"#2f3336",
 			"extra-gray":"#eaeaea",
 			"bored-gray":"#777777",
@@ -37,7 +37,7 @@
         "rule": "color:{value}",
 		"type": "dictionary",
 		"values": {
-            "primary":"#7b1fa2",
+            "primary":"#424043",
 			"elegant-black":"#2f3336",
 			"extra-gray":"#eaeaea",
 			"bored-gray":"#777777",
@@ -132,6 +132,20 @@
 		"type": "list",
 		"values": ["solid","none"],
 		"variants": "auto",
+		"separator": "-"
+	},
+	"border-left-style": {
+		"rule": "border-left-style:{value}",
+		"type": "list",
+		"values": ["solid","none"],
+		"variants": "auto",
+		"separator": "-"
+	},
+	"border-left-width": {
+		"rule": "border-left-width:{value}px",
+		"type": "count",
+		"values": ["1","24"],
+		"variants": "24",
 		"separator": "-"
 	},
 	"cursor": {
