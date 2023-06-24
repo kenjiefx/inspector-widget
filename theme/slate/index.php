@@ -12,6 +12,7 @@
         <?php template_assets(); ?>
     </head>
     <body xstrawberry="app">
+        <style id="__primary_theme_color"></style>
         <?php component('Loader'); ?>
         <main id="main">
             <?php component('Header'); ?>

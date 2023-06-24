@@ -10,6 +10,15 @@ app.service('V3Manager',function(YotpoJSManager){
                     }
                 },100);
             });
+        },
+        getWidgetInstanceId:(className,loaderConfig)=>{
+            let instanceId = null;
+            for (const id in loaderConfig) {
+                if (loaderConfig[id].className===className) {
+                    instanceId = id
+                }
+            }
+            return instanceId
         }
     }
 });

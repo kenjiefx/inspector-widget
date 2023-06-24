@@ -10,6 +10,7 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
+			"stale-white":"#fdfdfd",
 			"transparent":"transparent",
 			"inherit":"inherit"
         },
@@ -27,6 +28,7 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
+			"stale-white":"#fdfdfd",
 			"transparent":"transparent",
 			"inherit":"inherit"
         },
@@ -34,7 +36,7 @@
 		"separator": "-"
     },
 	"border-color": {
-        "rule": "color:{value}",
+        "rule": "border-color:{value}",
 		"type": "dictionary",
 		"values": {
             "primary":"#424043",
@@ -44,6 +46,7 @@
 			"label-gray":"#9e9e9e",
 			"primary-extra-light":"#fdf9ff",
 			"white":"#f6f6f6",
+			"stale-white":"#fdfdfd",
 			"transparent":"transparent",
 			"inherit":"inherit"
         },
@@ -184,7 +187,17 @@
         "rule": "box-shadow:{value}",
 		"type": "dictionary",
 		"values": {
-            "card-standard":"-1px 3px 8px 0 rgb(0 0 0 / 28%)"
+            "card-standard":"-1px 3px 8px 0 rgb(0 0 0 / 28%)",
+			"card-iphone":"0 2px 2px 0 rgba(0,0,0,0.2)"
+        },
+		"variants": "auto",
+		"separator": "-"
+    },
+	"static-height": {
+        "rule": "height:{value}",
+		"type": "dictionary",
+		"values": {
+            "max-content":"max-content"
         },
 		"variants": "auto",
 		"separator": "-"
